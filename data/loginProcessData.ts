@@ -1,3 +1,4 @@
+
 import { LoginProcessRequest } from "../pages/api/LoginProcessApi";
 
 export const requestBody: LoginProcessRequest = {
@@ -8,7 +9,7 @@ export const requestBody: LoginProcessRequest = {
         sessionId: '1234erd'
     };
 
-    // Minimum required data for login
+// Minimum required data for login
 export const minimumRequestBody: LoginProcessRequest = {
         userId: 111,
         authToken: '1234wer',
@@ -24,4 +25,20 @@ export const completeRequestBody: LoginProcessRequest = {
         sessionId: '1234erd'
     };
 
+// export const loginProcessResponse = {
+//   "Success": true,
+//   "Result": {
+//     "LoginState": "Authorized",
+//     "MemberInfo": {
+//       // Member information
+//     },
+//     "UserId": "user-guid",
+//     "DisableAutoPinChange": false,
+//     "AutoLaunchPage": "/dashboard",
+//     "CorrespondenceItems": [],
+//     "ChallengeResponse": null,
+//     "MxUser": {
+//       // MX user data
+//     }
+//   }
 

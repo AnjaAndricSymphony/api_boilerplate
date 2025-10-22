@@ -40,6 +40,7 @@ Main goal of the tests is to verify that all endpoint return valid data, that al
 - No hardcoded values  → use `/data`
 - Separate request logic, test logic and validations
 - Tests should be **selfdocumented** (readable title and structure)
+- **Use spread operator for test data variations** → create base data object and modify only specific fields with `{ ...baseData, field: newValue }`
 
 ---
 
