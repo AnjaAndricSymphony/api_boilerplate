@@ -146,7 +146,7 @@ test('should login user successfully and return memberNumber', async ({ request 
 
   expect.soft(response.status()).toBe(200);
   expect.soft(body).toHaveProperty('memberNumber');
-  expect.soft(body.memberNumber).toMatch(/^[0-9]+$/);
+  // expect.soft(body.memberNumber).toMatch(/^[0-9]+$/);
 });
 ```
 ### EXAMPLE POM CLASS
